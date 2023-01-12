@@ -14,6 +14,7 @@ public:
 	{  }
 };
 
+
 class Derived : protected Base { };
 
 int main(void)
