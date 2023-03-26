@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdio.h>
-
+using namespace std;
 void swap(int *a, int *b) {
   int temp = *a;
   *a = *b;
