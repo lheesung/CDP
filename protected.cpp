@@ -19,6 +19,6 @@ class Derived : protected Base { };
 int main(void)
 {
 	Derived drv;
-	cout<<drv.num1<<endl;
+	cout<<drv.num3<<endl;
 	return 0;
 }

@@ -15,7 +15,6 @@ public:
 		cout<<"~SoBase() : "<<baseNum<<endl;
 	}
 };
-
 class SoDerived : public SoBase
 {
 private:
@@ -25,7 +24,7 @@ public:
 	{
 		cout<<"SoDerived() : "<<derivNum<<endl;
 	}
-    
+
 	~SoDerived()
 	{
 		cout<<"~SoDerived() : "<<derivNum<<endl;
